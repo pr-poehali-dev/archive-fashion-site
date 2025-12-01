@@ -157,7 +157,7 @@ export default function Index() {
                 
                 <div className="space-y-6">
                   <div>
-                    <label className="text-sm font-semibold mb-2 block">₽</label>
+                    <label className="text-sm font-semibold mb-2 block">Цена (₽)</label>
                     <Slider
                       value={priceRange}
                       onValueChange={setPriceRange}
