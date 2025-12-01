@@ -142,9 +142,7 @@ export default function Index() {
               <Button 
                 onClick={() => setActiveSection('catalog')}
                 className="bg-secondary hover:bg-primary text-secondary-foreground border-2 border-primary px-8 py-6 text-lg"
-              >
-                Перейти в каталог
-              </Button>
+              >Filla</Button>
             </div>
           </div>
         </section>
