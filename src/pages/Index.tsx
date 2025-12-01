@@ -136,7 +136,8 @@ export default function Index() {
         <section className="vintage-texture">
           <div className="container mx-auto px-4 py-20">
             <div className="max-w-4xl mx-auto text-center border-4 border-primary p-12 bg-card animate-fade-in">
-              <h2 className="text-6xl font-bold mb-6">Дизайнерская одежда из архива</h2>
+              <h2 className="text-6xl font-bold mb-6">the designed clothes was inspired of fashion home 
+</h2>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 Уникальные винтажные вещи 1960-1980х годов. <br />Каждая модель — часть истории моды.
               </p>
