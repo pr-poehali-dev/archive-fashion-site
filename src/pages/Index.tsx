@@ -138,7 +138,7 @@ export default function Index() {
             <div className="max-w-4xl mx-auto text-center border-4 border-primary p-12 animate-fade-in bg-[#ffffff] rounded-0">
               <h2 className="text-6xl font-bold mb-6">the designed clothes was inspired of fashion home 
 </h2>
-              <p className="text-xl mb-8 angel font text-[#0b0a0a] ">saransk divas</p>
+              <p className="text-xl mb-8 angel font text-[#0b0a0a] ">cause   i d-o-n-t think so...</p>
               <Button 
                 onClick={() => setActiveSection('catalog')}
                 className="bg-black hover:bg-gray-800 text-white border-2 border-black px-8 py-6 text-lg"
