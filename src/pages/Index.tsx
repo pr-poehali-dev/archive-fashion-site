@@ -135,7 +135,7 @@ export default function Index() {
       {activeSection === 'home' && (
         <section className="vintage-texture">
           <div className="container mx-auto px-4 py-20">
-            <div className="max-w-4xl mx-auto text-center border-4 border-primary p-12 bg-card animate-fade-in">
+            <div className="max-w-4xl mx-auto text-center border-4 border-primary p-12 animate-fade-in bg-[#ffffff] rounded-0">
               <h2 className="text-6xl font-bold mb-6">the designed clothes was inspired of fashion home 
 </h2>
               <p className="text-xl mb-8 angel font text-[#0b0a0a] ">saransk divas</p>
