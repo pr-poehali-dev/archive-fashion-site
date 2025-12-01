@@ -178,7 +178,7 @@ export default function Index() {
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="all">Все размеры</SelectItem>
+                        <SelectItem value="all">all sizes allowed</SelectItem>
                         {sizes.map(size => (
                           <SelectItem key={size} value={size}>{size}</SelectItem>
                         ))}
