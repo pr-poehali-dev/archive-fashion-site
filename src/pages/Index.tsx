@@ -290,7 +290,7 @@ export default function Index() {
       {activeSection === 'collections' && (
         <section className="container mx-auto px-4 py-12 animate-fade-in">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-center">Коллекции</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center">?</h2>
             <div className="grid gap-6">
               {['Классика 1960х', 'Диско эпоха 1970х', 'Оверсайз 1980х'].map((collection, index) => (
                 <Card key={index} className="border-2 border-primary p-8 hover-scale">
