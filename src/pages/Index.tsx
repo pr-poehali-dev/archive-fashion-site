@@ -67,7 +67,7 @@ export default function Index() {
       <header className="border-b-2 border-primary bg-background sticky top-0 z-50 vintage-texture">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-4xl font-bold text-foreground tracking-wide">АРХИВ</h1>
+            <h1 className="text-foreground tracking-wide text-3xl font-black text-left beautiful font">concepteurs médicaux</h1>
             <nav className="hidden md:flex gap-8">
               <button onClick={() => setActiveSection('home')} className="text-foreground hover:text-secondary transition-colors font-semibold">Главная</button>
               <button onClick={() => setActiveSection('catalog')} className="text-foreground hover:text-secondary transition-colors font-semibold">Каталог</button>
