@@ -375,15 +375,15 @@ export default function Index() {
 
       <footer className="border-t-2 border-primary bg-muted text-card-foreground mt-20 vintage-texture">
         <div className="container mx-auto px-4 py-12">
-          <div className="text-center">
-            <h3 className="text-3xl font-bold mb-4">АРХИВ</h3>
-            <p className="text-muted-foreground">Дизайнерская одежда из прошлого для настоящего</p>
+          <div className="text-center bg-[#ffffff]">
+            <h3 className="text-3xl font-bold mb-4 py-0">ARCHIVED</h3>
+            <p className="text-muted-foreground py-0 px-0"></p>
             <div className="mt-6 flex justify-center gap-6">
               <Icon name="Instagram" className="hover:text-secondary cursor-pointer transition-colors" size={24} />
               <Icon name="Facebook" className="hover:text-secondary cursor-pointer transition-colors" size={24} />
               <Icon name="Mail" className="hover:text-secondary cursor-pointer transition-colors" size={24} />
             </div>
-            <p className="mt-8 text-sm text-muted-foreground">© 2024 АРХИВ. Все права защищены.</p>
+            <p className="mt-8 text-sm text-muted-foreground">HOT SINCE © 2007</p>
           </div>
         </div>
       </footer>
