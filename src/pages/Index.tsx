@@ -19,19 +19,12 @@ interface Product {
   image: string;
 }
 
-const products: Product[] = [
-  { id: 1, name: 'Винтажный блейзер', price: 15000, era: '2007-2009', style: 'archive', material: 'cotton', size: ['S', 'M', 'L'], image: '/placeholder.svg' },
-  { id: 2, name: 'Архивное платье', price: 22000, era: '2010-2013', style: 'oversized', material: 'denim', size: ['XS', 'S', 'M'], image: '/placeholder.svg' },
-  { id: 3, name: 'Ретро пальто', price: 28000, era: '2014-2025', style: 'cringe', material: 'leather', size: ['M', 'L', 'XL'], image: '/placeholder.svg' },
-  { id: 4, name: 'Винтажные брюки', price: 12000, era: '2007-2009', style: 'downtown', material: 'fur faux', size: ['S', 'M', 'L', 'XL'], image: '/placeholder.svg' },
-  { id: 5, name: 'Архивная юбка', price: 18000, era: '2010-2013', style: 'punk', material: 'cotton', size: ['XS', 'S', 'M'], image: '/placeholder.svg' },
-  { id: 6, name: 'Ретро жакет', price: 20000, era: '2014-2025', style: 'just sw2g', material: 'denim', size: ['M', 'L'], image: '/placeholder.svg' },
-];
+const products: Product[] = [];
 
 export default function Index() {
   const [cart, setCart] = useState<Product[]>([]);
   const [activeSection, setActiveSection] = useState('home');
-  const [priceRange, setPriceRange] = useState([0, 30000]);
+  const [priceRange, setPriceRange] = useState([100000, 1000000]);
   const [selectedEras, setSelectedEras] = useState<string[]>([]);
   const [selectedStyles, setSelectedStyles] = useState<string[]>([]);
   const [selectedMaterials, setSelectedMaterials] = useState<string[]>([]);
@@ -155,8 +148,9 @@ export default function Index() {
                     <Slider
                       value={priceRange}
                       onValueChange={setPriceRange}
-                      max={30000}
-                      step={1000}
+                      min={100000}
+                      max={1000000}
+                      step={10000}
                       className="mb-2"
                     />
                     <div className="flex justify-between text-sm">
@@ -292,14 +286,9 @@ export default function Index() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-center">?</h2>
             <div className="grid gap-6">
-              {['Классика 1960х', 'Диско эпоха 1970х', 'Оверсайз 1980х'].map((collection, index) => (
-                <Card key={index} className="border-2 border-primary p-8 hover-scale">
-                  <h3 className="text-2xl font-bold mb-3">{collection}</h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    Уникальная подборка дизайнерских вещей эпохи, сохранивших свою элегантность и стиль.
-                  </p>
-                </Card>
-              ))}
+              <Card className="border-2 border-primary p-8 hover-scale">
+                <h3 className="text-2xl font-bold mb-3">cancelled by the public</h3>
+              </Card>
             </div>
           </div>
         </section>
