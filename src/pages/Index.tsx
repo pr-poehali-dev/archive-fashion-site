@@ -20,12 +20,12 @@ interface Product {
 }
 
 const products: Product[] = [
-  { id: 1, name: 'Винтажный блейзер', price: 15000, era: '1970s', style: 'Классика', material: 'Шерсть', size: ['S', 'M', 'L'], image: '/placeholder.svg' },
-  { id: 2, name: 'Архивное платье', price: 22000, era: '1960s', style: 'Коктейльный', material: 'Шёлк', size: ['XS', 'S', 'M'], image: '/placeholder.svg' },
-  { id: 3, name: 'Ретро пальто', price: 28000, era: '1980s', style: 'Оверсайз', material: 'Кашемир', size: ['M', 'L', 'XL'], image: '/placeholder.svg' },
-  { id: 4, name: 'Винтажные брюки', price: 12000, era: '1970s', style: 'Кэжуал', material: 'Деним', size: ['S', 'M', 'L', 'XL'], image: '/placeholder.svg' },
-  { id: 5, name: 'Архивная юбка', price: 18000, era: '1960s', style: 'А-силуэт', material: 'Твид', size: ['XS', 'S', 'M'], image: '/placeholder.svg' },
-  { id: 6, name: 'Ретро жакет', price: 20000, era: '1980s', style: 'Деловой', material: 'Лён', size: ['M', 'L'], image: '/placeholder.svg' },
+  { id: 1, name: 'Винтажный блейзер', price: 15000, era: '2007-2009', style: 'archive', material: 'cotton', size: ['S', 'M', 'L'], image: '/placeholder.svg' },
+  { id: 2, name: 'Архивное платье', price: 22000, era: '2010-2013', style: 'oversized', material: 'denim', size: ['XS', 'S', 'M'], image: '/placeholder.svg' },
+  { id: 3, name: 'Ретро пальто', price: 28000, era: '2014-2025', style: 'cringe', material: 'leather', size: ['M', 'L', 'XL'], image: '/placeholder.svg' },
+  { id: 4, name: 'Винтажные брюки', price: 12000, era: '2007-2009', style: 'downtown', material: 'fur faux', size: ['S', 'M', 'L', 'XL'], image: '/placeholder.svg' },
+  { id: 5, name: 'Архивная юбка', price: 18000, era: '2010-2013', style: 'punk', material: 'cotton', size: ['XS', 'S', 'M'], image: '/placeholder.svg' },
+  { id: 6, name: 'Ретро жакет', price: 20000, era: '2014-2025', style: 'just sw2g', material: 'denim', size: ['M', 'L'], image: '/placeholder.svg' },
 ];
 
 export default function Index() {
@@ -57,9 +57,9 @@ export default function Index() {
 
   const totalPrice = cart.reduce((sum, item) => sum + item.price, 0);
 
-  const eras = ['1960s', '1970s', '1980s'];
-  const styles = ['Классика', 'Коктейльный', 'Оверсайз', 'Кэжуал', 'А-силуэт', 'Деловой'];
-  const materials = ['Шерсть', 'Шёлк', 'Кашемир', 'Деним', 'Твид', 'Лён'];
+  const eras = ['2007-2009', '2010-2013', '2014-2025'];
+  const styles = ['archive', 'oversized', 'cringe', 'downtown', 'punk', 'just sw2g'];
+  const materials = ['cotton', 'denim', 'leather', 'fur faux'];
   const sizes = ['XS', 'S', 'M', 'L', 'XL'];
 
   return (
