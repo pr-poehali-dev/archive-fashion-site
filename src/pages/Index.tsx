@@ -69,7 +69,7 @@ export default function Index() {
           <div className="flex items-center justify-between">
             <h1 className="text-foreground tracking-wide text-3xl font-black text-left beautiful font">concepteurs médicaux</h1>
             <nav className="hidden md:flex gap-8">
-              <button onClick={() => setActiveSection('home')} className="text-foreground hover:text-secondary transition-colors font-semibold">Главная</button>
+              <button onClick={() => setActiveSection('home')} className="text-foreground hover:text-secondary transition-colors font-semibold">main</button>
               <button onClick={() => setActiveSection('catalog')} className="text-foreground hover:text-secondary transition-colors font-semibold">Каталог</button>
               <button onClick={() => setActiveSection('collections')} className="text-foreground hover:text-secondary transition-colors font-semibold">Коллекции</button>
               <button onClick={() => setActiveSection('about')} className="text-foreground hover:text-secondary transition-colors font-semibold">О проекте</button>
