@@ -317,7 +317,7 @@ export default function Index() {
             <h2 className="text-4xl font-bold mb-8 text-center">О проекте</h2>
             <div className="border-4 border-primary overflow-hidden">
               <img 
-                src="https://cdn.poehali.dev/projects/0e3957c8-a898-441c-8f24-84f053bf37d5/files/437002a5-4937-45a3-9edb-74ce1c6ea9b2.jpg" 
+                src="https://cdn.poehali.dev/files/123fab2a-b334-46f2-9c4d-17a94596930f.jpg" 
                 alt="Архивная дизайнерская мода" 
                 className="w-full h-auto object-cover"
               />
