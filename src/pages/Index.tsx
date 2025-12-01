@@ -70,10 +70,10 @@ export default function Index() {
             <h1 className="text-foreground tracking-wide text-3xl font-black text-left beautiful font">concepteurs médicaux</h1>
             <nav className="hidden md:flex gap-8">
               <button onClick={() => setActiveSection('home')} className="text-foreground hover:text-secondary transition-colors font-semibold">main</button>
-              <button onClick={() => setActiveSection('catalog')} className="text-foreground hover:text-secondary transition-colors font-semibold">Каталог</button>
-              <button onClick={() => setActiveSection('collections')} className="text-foreground hover:text-secondary transition-colors font-semibold">Коллекции</button>
-              <button onClick={() => setActiveSection('about')} className="text-foreground hover:text-secondary transition-colors font-semibold">О проекте</button>
-              <button onClick={() => setActiveSection('contacts')} className="text-foreground hover:text-secondary transition-colors font-semibold">Контакты</button>
+              <button onClick={() => setActiveSection('catalog')} className="text-foreground hover:text-secondary transition-colors font-semibold">catalog</button>
+              <button onClick={() => setActiveSection('collections')} className="text-foreground hover:text-secondary transition-colors font-semibold">fashion collections</button>
+              <button onClick={() => setActiveSection('about')} className="text-foreground hover:text-secondary transition-colors font-semibold">about</button>
+              <button onClick={() => setActiveSection('contacts')} className="text-foreground hover:text-secondary transition-colors font-semibold">(￣ヘ￣)</button>
             </nav>
             <Sheet>
               <SheetTrigger asChild>
