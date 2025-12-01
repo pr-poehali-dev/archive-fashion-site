@@ -153,11 +153,11 @@ export default function Index() {
           <div className="flex gap-8">
             <aside className="w-64 space-y-6 shrink-0">
               <Card className="border-2 border-primary p-6">
-                <h3 className="text-lg font-bold mb-4">Фильтры</h3>
+                <h3 className="text-lg font-bold mb-4">filter</h3>
                 
                 <div className="space-y-6">
                   <div>
-                    <label className="text-sm font-semibold mb-2 block">Цена (₽)</label>
+                    <label className="text-sm font-semibold mb-2 block">₽</label>
                     <Slider
                       value={priceRange}
                       onValueChange={setPriceRange}
@@ -172,7 +172,7 @@ export default function Index() {
                   </div>
 
                   <div>
-                    <label className="text-sm font-semibold mb-2 block">Размер</label>
+                    <label className="text-sm font-semibold mb-2 block">size</label>
                     <Select value={selectedSize} onValueChange={setSelectedSize}>
                       <SelectTrigger className="border-2 border-primary">
                         <SelectValue />
