@@ -187,7 +187,7 @@ export default function Index() {
                   </div>
 
                   <div>
-                    <label className="text-sm font-semibold mb-2 block">Эпоха</label>
+                    <label className="text-sm font-semibold mb-2 block">new era</label>
                     <div className="space-y-2">
                       {eras.map(era => (
                         <div key={era} className="flex items-center">
@@ -209,7 +209,7 @@ export default function Index() {
                   </div>
 
                   <div>
-                    <label className="text-sm font-semibold mb-2 block">Стиль</label>
+                    <label className="text-sm font-semibold mb-2 block">type</label>
                     <div className="space-y-2">
                       {styles.map(style => (
                         <div key={style} className="flex items-center">
@@ -231,7 +231,7 @@ export default function Index() {
                   </div>
 
                   <div>
-                    <label className="text-sm font-semibold mb-2 block">Материал</label>
+                    <label className="text-sm font-semibold mb-2 block">material</label>
                     <div className="space-y-2">
                       {materials.map(material => (
                         <div key={material} className="flex items-center">
