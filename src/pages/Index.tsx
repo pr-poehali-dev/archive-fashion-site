@@ -81,11 +81,11 @@ export default function Index() {
               </SheetTrigger>
               <SheetContent className="border-l-2 border-primary">
                 <SheetHeader>
-                  <SheetTitle className="text-2xl font-bold">Корзина</SheetTitle>
+                  <SheetTitle className="text-2xl font-bold">trash</SheetTitle>
                 </SheetHeader>
                 <div className="mt-8 space-y-4">
                   {cart.length === 0 ? (
-                    <p className="text-center py-8">Корзина пуста</p>
+                    <p className="text-center py-8">empty</p>
                   ) : (
                     <>
                       {cart.map((item, index) => (
