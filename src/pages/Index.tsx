@@ -314,7 +314,8 @@ export default function Index() {
       {activeSection === 'about' && (
         <section className="container mx-auto px-4 py-12 animate-fade-in">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-center">О проекте</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center">About
+✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞</h2>
             <div className="border-4 border-primary overflow-hidden">
               <img 
                 src="https://cdn.poehali.dev/files/123fab2a-b334-46f2-9c4d-17a94596930f.jpg" 
