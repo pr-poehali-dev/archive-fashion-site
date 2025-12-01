@@ -77,13 +77,7 @@ export default function Index() {
             </nav>
             <Sheet>
               <SheetTrigger asChild>
-                <Button variant="outline" className="relative border-2 border-primary hover:bg-primary hover:text-primary-foreground">
-                  <Icon name="ShoppingBag" className="mr-2" />
-                  Корзина
-                  {cart.length > 0 && (
-                    <Badge className="ml-2 bg-secondary text-secondary-foreground">{cart.length}</Badge>
-                  )}
-                </Button>
+                <Button variant="outline" className="relative border-2 border-primary hover:bg-primary hover:text-primary-foreground">trash basket</Button>
               </SheetTrigger>
               <SheetContent className="border-l-2 border-primary">
                 <SheetHeader>
