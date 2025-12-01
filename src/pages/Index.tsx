@@ -330,7 +330,9 @@ export default function Index() {
                 <Icon name="Mail" className="text-secondary mt-1" size={24} />
                 <div>
                   <div className="font-semibold mb-1">mail4u</div>
-                  <div>archivefashion.eu (no)</div>
+                  <div>archivefashion.eu (no)
+✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞
+on telegram @bleedingmorguebodies</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
