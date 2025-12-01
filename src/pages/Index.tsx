@@ -141,7 +141,7 @@ export default function Index() {
               <p className="text-xl mb-8 angel font text-[#0b0a0a] ">saransk divas</p>
               <Button 
                 onClick={() => setActiveSection('catalog')}
-                className="bg-secondary hover:bg-primary text-secondary-foreground border-2 border-primary px-8 py-6 text-lg"
+                className="bg-black hover:bg-gray-800 text-white border-2 border-black px-8 py-6 text-lg"
               >Filla</Button>
             </div>
           </div>
