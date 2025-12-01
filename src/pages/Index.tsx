@@ -324,34 +324,34 @@ export default function Index() {
       {activeSection === 'contacts' && (
         <section className="container mx-auto px-4 py-12 animate-fade-in">
           <div className="max-w-2xl mx-auto border-4 border-primary p-12 bg-card">
-            <h2 className="text-4xl font-bold mb-8">Контакты</h2>
+            <h2 className="text-4xl font-bold mb-8">dont dm</h2>
             <div className="space-y-6 text-lg">
               <div className="flex items-start gap-4">
                 <Icon name="Mail" className="text-secondary mt-1" size={24} />
                 <div>
-                  <div className="font-semibold mb-1">Email</div>
-                  <div>info@archive-fashion.ru</div>
+                  <div className="font-semibold mb-1">mail4u</div>
+                  <div>archivefashion.eu (no)</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <Icon name="Phone" className="text-secondary mt-1" size={24} />
                 <div>
-                  <div className="font-semibold mb-1">Телефон</div>
-                  <div>+7 (495) 123-45-67</div>
+                  <div className="font-semibold mb-1">phonenumber4u</div>
+                  <div>?</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <Icon name="MapPin" className="text-secondary mt-1" size={24} />
                 <div>
-                  <div className="font-semibold mb-1">Адрес</div>
-                  <div>Москва, ул. Архивная, 10</div>
+                  <div className="font-semibold mb-1">address4u</div>
+                  <div>?</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <Icon name="Clock" className="text-secondary mt-1" size={24} />
                 <div>
-                  <div className="font-semibold mb-1">Режим работы</div>
-                  <div>Пн-Пт: 11:00 — 20:00<br />Сб-Вс: 12:00 — 18:00</div>
+                  <div className="font-semibold mb-1">wedontwork4u</div>
+                  <div>closed4u</div>
                 </div>
               </div>
             </div>
