@@ -313,21 +313,14 @@ export default function Index() {
 
       {activeSection === 'about' && (
         <section className="container mx-auto px-4 py-12 animate-fade-in">
-          <div className="max-w-3xl mx-auto border-4 border-primary p-12 bg-card">
-            <h2 className="text-4xl font-bold mb-6">О проекте</h2>
-            <div className="space-y-4 text-lg leading-relaxed">
-              <p>
-                АРХИВ — это проект, посвященный сохранению и популяризации дизайнерской моды прошлого. 
-                Мы собираем уникальные винтажные вещи из частных коллекций и архивов модных домов.
-              </p>
-              <p>
-                Каждая вещь в нашем каталоге — это часть истории моды, тщательно отреставрированная 
-                и готовая к новой жизни в современном гардеробе.
-              </p>
-              <p>
-                Мы верим, что настоящий стиль вне времени, и архивная мода — это не просто винтаж, 
-                а инвестиция в качество и уникальность.
-              </p>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-center">О проекте</h2>
+            <div className="border-4 border-primary overflow-hidden">
+              <img 
+                src="https://cdn.poehali.dev/projects/0e3957c8-a898-441c-8f24-84f053bf37d5/files/437002a5-4937-45a3-9edb-74ce1c6ea9b2.jpg" 
+                alt="Архивная дизайнерская мода" 
+                className="w-full h-auto object-cover"
+              />
             </div>
           </div>
         </section>
